@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Columnas_anidadas</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <style>
+      .container {
+        margin-top: 28px;
+      }
+      .row {
+        background: #e8e8e8;
+      }
+      .columna {
+        background: #f2f2f2;
+        text-align: center;
+        border: 3px solid #8d8d8d;
+      }
+      .columna-interior {
+        background: #e8e8e8;
+        border: 1px solid #8d8d8d;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 columna">
+          <p>Columna 1</p>
+          <div class="row">
+            <div class="col-12 col-md-6 columna-interior">
+              Columna interior 1
+            </div>
+            <div class="col-12 col-md-6 columna-interior">
+              Columna interior2
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 columna">
+          <p>columna 2</p>
+          <div class="row">
+            <div class="col-12 col-md-6 columna-interior">
+              columna interior 1
+            </div>
+            <div class="col-12 col-md-6 columna-interior">
+              columna interior 2
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

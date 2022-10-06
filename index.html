@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi curso de bootstrap</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-4">
+          <h1>CABECERA</h1>
+          <p>12 columnas</p>
+        </div>
+        <nav class="col">
+          <h1>Aprendiendo con ejemplos</h1>
+          <div class="row">
+            <div class="col">
+              <a href="grid/columnas_alineadas_horizontalmente.html"
+                >Alineación vertical</a
+              >
+            </div>
+
+            <div class="col">
+              <a href="grid/columnas_alineadas_horizontalmente.html"
+                >Alineación horizontal</a
+              >
+            </div>
+            <div class="col">
+              <a href="grid/columnas_anidadas.html"> Columnas anidadas </a>
+            </div>
+            <div class="col">
+              <a href="grid/row_columns.html">Filas y columnas</a>
+            </div>
+            <div class="col">
+              <a href="grid/Utilidades_grid.html">Utilidades Grid</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="contenedor-main row align-items-center">
+        <main class="col-md-8">
+          <h1>MAIN</h1>
+          <!-- aqui, al ponerle la clase d
+        a los parrafos, d-none hace que se 
+      oculte hasta llegar a d-md, que se verá
+    al ponerle block. En el segundo parrafo lo 
+  hago al reves-->
+          <p class="d-none d-md-block">8 columnas</p>
+          <p class="d-block d-md-none">12 columnas</p>
+
+          <p>
+            En un lugar de la Mancha2, de cuyo nombre no quiero acordarme3, no
+            ha mucho tiempo que vivía un hidalgo de los de lanza en astillero,
+            adarga antigua, rocín flaco y galgo corredor4. Una olla de algo más
+            vaca que carnero, salpicón las más noches5, duelos y quebrantos los
+            sábados6, lantejas los viernes7, algún palomino de añadidura los
+            domingos8, consumían las tres partes de su hacienda9. El resto della
+            concluían sayo de velarte10
+          </p>
+
+          <p>
+            calzas de velludo para las fiestas, con sus pantuflos de lo mesmo11,
+            y los días de entresemana se honraba con su vellorí de lo más
+            fino12. Tenía en su casa una ama que pasaba de los cuarenta y una
+            sobrina que no llegaba a los veinte, y un mozo de campo y plaza que
+            así ensillaba el rocín como tomaba la podadera13.
+          </p>
+        </main>
+        <aside class="col-md-4">
+          <h1>ASIDE</h1>
+          <p class="d-none d-md-block">4 columnas</p>
+          <p class="d-block d-md-none">12 columnas</p>
+        </aside>
+      </section>
+      <section class="row widgets justify-content-between">
+        <div class="col-12 col-md-4 col-lg-3">
+          <p class="d-none d-lg-block">3 columnas</p>
+          <p class="d-none d-md-block d-lg-none">4 columnas</p>
+          <p class="d-block d-md-none">12 columnas</p>
+          Un texto poético es un tipo de obra perteneciente al género literario;
+          la poesía o texto poético, en lenguaje académico, es una expresión
+          artística donde la palabra tiene una intención estética además de
+          formal.
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <p class="d-none d-lg-block">3 columnas</p>
+          <p class="d-none d-md-block d-lg-none">4 columnas</p>
+          <p class="d-block d-md-none">12 columnas</p>
+          Un texto poético es un tipo de obra perteneciente al género literario;
+          la poesía o texto poético, en lenguaje académico, es una expresión
+          artística donde la palabra tiene una intención estética además de
+          formal.
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <p class="d-none d-lg-block">3 columnas</p>
+          <p class="d-none d-md-block d-lg-none">4 columnas</p>
+          <p class="d-block d-md-none">12 columnas</p>
+          Un texto poético es un tipo de obra perteneciente al género literario;
+          la poesía o texto poético, en lenguaje académico, es una expresión
+          artística donde la palabra tiene una intención estética además de
+          formal.
+        </div>
+      </section>
+      <footer class="row">
+        <div class="col">
+          <h4>Footer</h4>
+          <p>12 columnas</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js\bootstrap.bundle.min.js"></script>
+  </body>
+</html>
